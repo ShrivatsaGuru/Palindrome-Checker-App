@@ -21,12 +21,14 @@
  * @author Developer
  * @version 3.0
  */
-
+import java.util.*;
 public class UCThreePalindrome
 {
 	public static void main(String[] args)
 	{
-		String name="level";
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Original text: ");
+		String name=sc.nextLine();
 		String reverse="";
 		boolean isPalindrome=true;
 		int length=name.length();
@@ -35,7 +37,6 @@ public class UCThreePalindrome
 			reverse+=name.charAt(i);
 		}
 		isPalindrome=name.equals(reverse);
-		System.out.println("Original text: "+name);
 		System.out.println("Reversed text: "+reverse);
 		System.out.println("isPalindrome? :"+isPalindrome);
 	}
