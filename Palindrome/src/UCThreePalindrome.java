@@ -34,6 +34,7 @@ public class UCThreePalindrome
 		for(int i=length-1;i>=0;i--){
 			reverse+=name.charAt(i);
 		}
+		isPalindrome=name.equals(reverse);
 		System.out.println("Original text: "+name);
 		System.out.println("Reversed text: "+reverse);
 		System.out.println("isPalindrome? :"+isPalindrome);
