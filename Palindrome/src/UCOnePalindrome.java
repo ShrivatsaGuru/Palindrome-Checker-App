@@ -22,7 +22,7 @@
  * @version 1.0
  */
 
-public class PalindromeCheck {
+public class UCOnePalindrome {
 	/**
 	 * Application entry point.
 	 *
