@@ -31,7 +31,6 @@ public class UCOnePalindrome {
 	 *
 	 * @param args Command-line arguments
 	 */
-
 	public static void main(String[] args)
 	{
 		System.out.println("Welcome to Palindrome Checker Management System\n"
