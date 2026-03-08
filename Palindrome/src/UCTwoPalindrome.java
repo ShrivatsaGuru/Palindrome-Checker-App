@@ -28,7 +28,6 @@ public class UCTwoPalindrome {
 		int n=name.length();
 		System.out.println("Input text: "+name);
 		boolean isPalindrome=true;
-		
 		//loop only till half of the string length
 		for(int i=0;i<=n/2;i++)
 		{
